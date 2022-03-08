@@ -1,17 +1,28 @@
 {
+  "homepage": "http://omar113.github.io/Covidoo-Tracker",
   "name": "covidoo-tracker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.3.1",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "chart.js": "^2.9.3",
+    "leaflet": "^1.6.0",
+    "numeral": "^2.0.6",
     "react": "^17.0.2",
+    "react-chartjs-2": "^2.9.0",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
+    "react-leaflet": "^2.7.0",
+    "react-scripts": "^5.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

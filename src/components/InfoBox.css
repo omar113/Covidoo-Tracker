@@ -1,0 +1,34 @@
+.InfoBox {
+    flex: 1;
+}
+
+.Cases {
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.Cases_green {
+    color: green !important;
+}
+
+
+.InfoBox_selected {
+    border-top: 10px solid green;
+}
+
+.InfoBox_red {
+    border-top: 10px solid rgb(153, 39, 39);
+}
+
+.Total {
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+}
+
+.InfoBox:not(:last-child) {
+    margin-right: 15px;
+}
