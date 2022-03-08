@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Covidoo-Tracker/static/css/main.6d7b1ee0.css",
+    "main.js": "/Covidoo-Tracker/static/js/main.3e7f30ff.js",
+    "static/js/787.d3f54924.chunk.js": "/Covidoo-Tracker/static/js/787.d3f54924.chunk.js",
+    "index.html": "/Covidoo-Tracker/index.html",
+    "main.6d7b1ee0.css.map": "/Covidoo-Tracker/static/css/main.6d7b1ee0.css.map",
+    "main.3e7f30ff.js.map": "/Covidoo-Tracker/static/js/main.3e7f30ff.js.map",
+    "787.d3f54924.chunk.js.map": "/Covidoo-Tracker/static/js/787.d3f54924.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d7b1ee0.css",
+    "static/js/main.3e7f30ff.js"
+  ]
+}
